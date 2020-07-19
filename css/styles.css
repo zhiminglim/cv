@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'fenixregular';
+    src: url('../fonts/fenix-regular-webfont.woff2') format('woff2'),
+         url('../fonts/fenix-regular-webfont.woff') format('woff');
+}
+
 body {
   background-color: #f9f7f7;
 }
@@ -13,8 +19,25 @@ hr {
 
 h1 {
   color: #112d4e;
+  font-size: 30px;
+  font-family: sans-serif;
 }
 
 h3 {
   color: #112d4e;
+}
+
+.circle-profile-photo {
+  height: 40%;
+  width: 40%;
+}
+
+.intro-para {
+  font-family: 'fenixregular';
+  font-size: 16px;
+  color: #3f72af;
+}
+
+.body-align {
+
 }
