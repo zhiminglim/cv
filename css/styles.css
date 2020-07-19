@@ -4,6 +4,13 @@
     url('../fonts/fenix-regular-webfont.woff') format('woff');
 }
 
+/* colors from : https://colorhunt.co/palette/22272 */
+/* white: #f9f7f7;
+ * body: #dbe2ef;
+ * contrast: #3f72af;
+ * dark: #112d4e; */
+
+
 /****************TAG SELECTORS******************/
 body {
   background-color: #f9f7f7;
@@ -70,6 +77,10 @@ p {
 
 .table-skill {
   margin: 0 auto;
+}
+
+.p-copyright {
+  font-size: 10px;
 }
 
 /****************ID SELECTORS******************/
