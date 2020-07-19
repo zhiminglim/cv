@@ -1,11 +1,14 @@
 @font-face {
-    font-family: 'fenixregular';
-    src: url('../fonts/fenix-regular-webfont.woff2') format('woff2'),
-         url('../fonts/fenix-regular-webfont.woff') format('woff');
+  font-family: 'fenixregular';
+  src: url('../fonts/fenix-regular-webfont.woff2') format('woff2'),
+    url('../fonts/fenix-regular-webfont.woff') format('woff');
 }
 
+/****************TAG SELECTORS******************/
 body {
   background-color: #f9f7f7;
+  margin: 0;
+  text-align: center;
 }
 
 hr {
@@ -15,6 +18,7 @@ hr {
   border-width: 6px;
   border-color: #dbe2ef;
   width: 5%;
+  margin: 40px auto 40px auto;
 }
 
 h1 {
@@ -24,10 +28,26 @@ h1 {
 }
 
 h3 {
+  font-family: 'fenixregular';
+  font-size: 20px;
   color: #112d4e;
 }
 
+p {
+  font-family: 'fenixregular';
+  font-size: 15px;
+  color: #112d4e;
+}
+
+
+/****************CLASS SELECTORS******************/
+.container-intro {
+  background-color: #dbe2ef;
+  padding-bottom: 30px;
+}
+
 .circle-profile-photo {
+  margin: 10px;
   height: 40%;
   width: 40%;
 }
@@ -36,8 +56,25 @@ h3 {
   font-family: 'fenixregular';
   font-size: 16px;
   color: #3f72af;
+  margin: 10px;
 }
 
-.body-align {
+.container-main {
+  background-color: #f9f7f7;
+}
 
+.p-font {
+  font-family: 'fenixregular';
+  font-size: 16px;
+  color: #3f72af;
+}
+
+.table-skill {
+  margin: 0 auto 0 auto;
+}
+
+/****************ID SELECTORS******************/
+#heading-name {
+  color: #112d4e;
+  margin: 10px;
 }

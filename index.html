@@ -5,58 +5,62 @@
   <meta charset="utf-8">
   <title>Zhiming's Personal Website</title>
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
-  <img class="circle-profile-photo" src="./assets/profile-photo.png" alt="zhiming profile picture">
-  <h1>Hey, Zhiming here.</h1>
-  <p class="intro-para">I'm a web developer. In my spare time, I question the need to have a cup of coffee, i also enjoy exercising, both outdoors and indoors playing video games.</p>
 
-  <p><a href="https://github.com/zhiminglim" target="_blank">Github</a></p>
-  <p><a href="https://www.linkedin.com/in/lim-zhiming-6a8756b7/" target="_blank">LinkedIn</a></p>
+  <div class="container-intro">
+    <img src="./assets/cloud.png" alt="cloud-png">
+    <br>
+    <img class="circle-profile-photo" src="./assets/profile-photo.png" alt="zhiming profile picture">
+    <h1 id="heading-name">Hey, Zhiming here.</h1>
 
-  <hr>
-  <br>
+    <div class="intro-para">
+      <p>I'm a web developer. In my spare time, I question the need to have a cup of coffee, i also enjoy exercising, both outdoors and indoors playing video games.</p>
 
-  <h3>Education</h3>
+      <p>
+        <a href="https://github.com/zhiminglim" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/lim-zhiming-6a8756b7/" target="_blank">LinkedIn</a>
+      </p>
+    </div>
+  </div>
 
-  <ul>
-    <li><a href="http://www.nus.edu.sg/" target="_blank">National University of Singapore</a></li>
-    <li>Chalmers University of Technology</li>
-    <li>River Valley High School</li>
-  </ul>
+  <div class="container-main">
 
-  <hr>
-  <br>
+    <hr>
 
-  <h3>Work Experience</h3>
-  <table>
-    <tr>
-      <td>Software Engineer</td>
-      <td>NCS Pte Ltd</td>
-    </tr>
-    <tr>
-      <td>Software Engineer Intern</td>
-      <td>Creative Labs Pte Ltd</td>
-    </tr>
-  </table>
+    <h3>Education</h3>
 
-  <hr>
-  <br>
+    <p>
+      <a href="http://www.nus.edu.sg/" target="_blank">National University of Singapore</a>
+    </p>
 
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>Java</td>
-      <td>✔✔✔✔✔</td>
-    </tr>
-  </table>
+    <p>Chalmers University of Technology</p>
+    <p>River Valley High School</p>
 
-  <br>
+    <hr>
 
-  <h3><a href="hobbies.html">Hobbies</a></h3>
+    <h3>Work Experience</h3>
 
-  <br>
+    <hr>
+
+    <h3>Skills</h3>
+    <table class="table-skill">
+      <tr>
+        <td>Java</td>
+        <td>✔✔✔✔✔</td>
+      </tr>
+    </table>
+
+    <hr>
+    
+    <h3><a href="hobbies.html">Hobbies</a></h3>
+
+    <br>
+  </div>
+
+
   <!-- <h3>Contact Me</h3>
   <form class="" action="mailto:zhiminglim9@gmail.com" method="post" enctype="text/plain">
     <label>Your Name:</label>
