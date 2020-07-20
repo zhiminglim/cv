@@ -10,6 +10,8 @@
  * contrast: #3f72af;
  * dark: #112d4e; */
 
+ /* 16px = 100% = 1em/1rem */
+
 
 /****************TAG SELECTORS******************/
 body {
@@ -30,7 +32,7 @@ hr {
 
 h1 {
   color: #112d4e;
-  font-size: 36px;
+  font-size: 3rem;
   font-family: 'fenixregular';
 }
 
@@ -42,6 +44,7 @@ h3 {
 
 p {
   font-family: 'fenixregular';
+  font-size: 1rem;
   color: #112d4e;
 }
 
@@ -53,14 +56,14 @@ p {
 }
 
 .circle-profile-photo {
-  margin: 10px;
+  margin: 20px;
   height: 40%;
   width: 40%;
 }
 
 .intro-para {
   font-family: 'fenixregular';
-  font-size: 16px;
+  font-size: 1rem;
   color: #3f72af;
   margin: 10px;
 }
