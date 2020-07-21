@@ -27,7 +27,7 @@ hr {
   border-width: 6px;
   border-color: #dbe2ef;
   width: 5%;
-  margin: 40px auto;
+  margin: 100px auto;
 }
 
 h1 {
@@ -84,6 +84,11 @@ p {
 
 .p-copyright {
   font-size: 10px;
+}
+
+.section-banner {
+  width: 128px;
+  height: 128px;
 }
 
 /****************ID SELECTORS******************/
